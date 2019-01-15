@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '8.0'
+target 'ZHShareManager' do
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCShare/UI'
+    pod 'UMCShare/Social/ReducedSina'
+    pod 'UMCShare/Social/ReducedWeChat'
+    pod 'UMCShare/Social/ReducedQQ'
+    pod 'UMCShare/Social/Email'
+    pod 'UMCShare/Social/SMS'
+end

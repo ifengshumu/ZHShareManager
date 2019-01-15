@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xy8-7a-b6y">
+                                <rect key="frame" x="50" y="318.5" width="112.5" height="30"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.23529411759999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="默认分享"/>
+                                <connections>
+                                    <action selector="share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dJ2-kd-Vwo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjm-Rh-r7N">
+                                <rect key="frame" x="212.5" y="318.5" width="112.5" height="30"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.23529411759999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="定制分享"/>
+                                <connections>
+                                    <action selector="customShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fkn-dZ-KP0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLE-07-be7">
+                                <rect key="frame" x="131.5" y="398.5" width="112.5" height="30"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.23529411759999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="锚点视图分享"/>
+                                <connections>
+                                    <action selector="customShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M99-Ri-tmL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlr-cq-ybz">
+                                <rect key="frame" x="131.5" y="238.5" width="112.5" height="30"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.23529411759999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="锚点分享"/>
+                                <connections>
+                                    <action selector="customShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9tS-P1-7Vy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xy8-7a-b6y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="04c-HM-tRF"/>
+                            <constraint firstItem="mlr-cq-ybz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Ip-pj-Chd"/>
+                            <constraint firstItem="OLE-07-be7" firstAttribute="height" secondItem="mlr-cq-ybz" secondAttribute="height" id="6ef-DQ-ssM"/>
+                            <constraint firstItem="Hjm-Rh-r7N" firstAttribute="height" secondItem="Xy8-7a-b6y" secondAttribute="height" id="G7j-MC-Pfk"/>
+                            <constraint firstItem="Hjm-Rh-r7N" firstAttribute="width" secondItem="Xy8-7a-b6y" secondAttribute="width" id="M9H-PF-DBv"/>
+                            <constraint firstItem="Xy8-7a-b6y" firstAttribute="top" secondItem="mlr-cq-ybz" secondAttribute="bottom" constant="50" id="MMN-DK-UWX"/>
+                            <constraint firstItem="OLE-07-be7" firstAttribute="height" secondItem="Xy8-7a-b6y" secondAttribute="height" id="Oyu-Lc-zJ4"/>
+                            <constraint firstItem="Hjm-Rh-r7N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q7z-wL-CRG"/>
+                            <constraint firstItem="Xy8-7a-b6y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="dpA-VE-brm"/>
+                            <constraint firstItem="Hjm-Rh-r7N" firstAttribute="leading" secondItem="Xy8-7a-b6y" secondAttribute="trailing" constant="50" id="fmu-nb-0hd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hjm-Rh-r7N" secondAttribute="trailing" constant="50" id="geh-iv-UWd"/>
+                            <constraint firstItem="OLE-07-be7" firstAttribute="width" secondItem="mlr-cq-ybz" secondAttribute="width" id="hgb-5w-2P2"/>
+                            <constraint firstItem="OLE-07-be7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iXS-HW-Dyh"/>
+                            <constraint firstItem="OLE-07-be7" firstAttribute="top" secondItem="Xy8-7a-b6y" secondAttribute="bottom" constant="50" id="qD3-86-ZE0"/>
+                            <constraint firstItem="OLE-07-be7" firstAttribute="width" secondItem="Xy8-7a-b6y" secondAttribute="width" id="r4B-JH-CQU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

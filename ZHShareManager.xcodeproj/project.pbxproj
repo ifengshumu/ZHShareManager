@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16EA8DF821D211E20025F93A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8DF721D211E20025F93A /* AppDelegate.m */; };
+		16EA8DFB21D211E20025F93A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8DFA21D211E20025F93A /* ViewController.m */; };
+		16EA8DFE21D211E20025F93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EA8DFC21D211E20025F93A /* Main.storyboard */; };
+		16EA8E0021D211E40025F93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EA8DFF21D211E40025F93A /* Assets.xcassets */; };
+		16EA8E0321D211E40025F93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EA8E0121D211E40025F93A /* LaunchScreen.storyboard */; };
+		16EA8E0621D211E40025F93A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8E0521D211E40025F93A /* main.m */; };
+		16EA8E2621D214810025F93A /* ZHShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8E1D21D214810025F93A /* ZHShareMenuView.m */; };
+		16EA8E2721D214810025F93A /* ZHShareObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8E1E21D214810025F93A /* ZHShareObject.m */; };
+		16EA8E2821D214810025F93A /* ZHShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8E2021D214810025F93A /* ZHShareManager.m */; };
+		16EA8E2921D214810025F93A /* ZHShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA8E2421D214810025F93A /* ZHShareMenu.m */; };
+		39D51EA840FAF1066D074B84 /* Pods_ZHShareManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9F3F8A459FD960E76114A5 /* Pods_ZHShareManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16EA8DF321D211E20025F93A /* ZHShareManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHShareManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EA8DF621D211E20025F93A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16EA8DF721D211E20025F93A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16EA8DF921D211E20025F93A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16EA8DFA21D211E20025F93A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16EA8DFD21D211E20025F93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16EA8DFF21D211E40025F93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16EA8E0221D211E40025F93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16EA8E0421D211E40025F93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EA8E0521D211E40025F93A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16EA8E1D21D214810025F93A /* ZHShareMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHShareMenuView.m; sourceTree = "<group>"; };
+		16EA8E1E21D214810025F93A /* ZHShareObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHShareObject.m; sourceTree = "<group>"; };
+		16EA8E1F21D214810025F93A /* ZHShareMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShareMenu.h; sourceTree = "<group>"; };
+		16EA8E2021D214810025F93A /* ZHShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHShareManager.m; sourceTree = "<group>"; };
+		16EA8E2121D214810025F93A /* ZHShareMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShareMenuView.h; sourceTree = "<group>"; };
+		16EA8E2221D214810025F93A /* ZHShareEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShareEnum.h; sourceTree = "<group>"; };
+		16EA8E2321D214810025F93A /* ZHShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShareManager.h; sourceTree = "<group>"; };
+		16EA8E2421D214810025F93A /* ZHShareMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHShareMenu.m; sourceTree = "<group>"; };
+		16EA8E2521D214810025F93A /* ZHShareObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShareObject.h; sourceTree = "<group>"; };
+		16EA8E2A21D215BD0025F93A /* ZHShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHShare.h; sourceTree = "<group>"; };
+		4341C02448E680A08CA8D35B /* Pods-ZHShareManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHShareManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHShareManager/Pods-ZHShareManager.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9F3F8A459FD960E76114A5 /* Pods_ZHShareManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHShareManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9BAB31069285A2216506D4 /* Pods-ZHShareManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHShareManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHShareManager/Pods-ZHShareManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EA8DF021D211E20025F93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D51EA840FAF1066D074B84 /* Pods_ZHShareManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EA8DEA21D211E20025F93A = {
+			isa = PBXGroup;
+			children = (
+				16EA8DF521D211E20025F93A /* ZHShareManager */,
+				16EA8DF421D211E20025F93A /* Products */,
+				7ADF3E828B83430B6FDBFEF2 /* Pods */,
+				7C73757C467666682EBC972D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16EA8DF421D211E20025F93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EA8DF321D211E20025F93A /* ZHShareManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16EA8DF521D211E20025F93A /* ZHShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				16EA8E1C21D214810025F93A /* ZHShare */,
+				16EA8DF621D211E20025F93A /* AppDelegate.h */,
+				16EA8DF721D211E20025F93A /* AppDelegate.m */,
+				16EA8DF921D211E20025F93A /* ViewController.h */,
+				16EA8DFA21D211E20025F93A /* ViewController.m */,
+				16EA8DFC21D211E20025F93A /* Main.storyboard */,
+				16EA8DFF21D211E40025F93A /* Assets.xcassets */,
+				16EA8E0121D211E40025F93A /* LaunchScreen.storyboard */,
+				16EA8E0421D211E40025F93A /* Info.plist */,
+				16EA8E0521D211E40025F93A /* main.m */,
+			);
+			path = ZHShareManager;
+			sourceTree = "<group>";
+		};
+		16EA8E1C21D214810025F93A /* ZHShare */ = {
+			isa = PBXGroup;
+			children = (
+				16EA8E2A21D215BD0025F93A /* ZHShare.h */,
+				16EA8E2221D214810025F93A /* ZHShareEnum.h */,
+				16EA8E2321D214810025F93A /* ZHShareManager.h */,
+				16EA8E2021D214810025F93A /* ZHShareManager.m */,
+				16EA8E1F21D214810025F93A /* ZHShareMenu.h */,
+				16EA8E2421D214810025F93A /* ZHShareMenu.m */,
+				16EA8E2121D214810025F93A /* ZHShareMenuView.h */,
+				16EA8E1D21D214810025F93A /* ZHShareMenuView.m */,
+				16EA8E2521D214810025F93A /* ZHShareObject.h */,
+				16EA8E1E21D214810025F93A /* ZHShareObject.m */,
+			);
+			path = ZHShare;
+			sourceTree = "<group>";
+		};
+		7ADF3E828B83430B6FDBFEF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4341C02448E680A08CA8D35B /* Pods-ZHShareManager.debug.xcconfig */,
+				DC9BAB31069285A2216506D4 /* Pods-ZHShareManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C73757C467666682EBC972D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C9F3F8A459FD960E76114A5 /* Pods_ZHShareManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EA8DF221D211E20025F93A /* ZHShareManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EA8E0921D211E40025F93A /* Build configuration list for PBXNativeTarget "ZHShareManager" */;
+			buildPhases = (
+				548C234EBFC165621DAB984F /* [CP] Check Pods Manifest.lock */,
+				16EA8DEF21D211E20025F93A /* Sources */,
+				16EA8DF021D211E20025F93A /* Frameworks */,
+				16EA8DF121D211E20025F93A /* Resources */,
+				A1D06031ACAC48479F485EC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHShareManager;
+			productName = ZHShareManager;
+			productReference = 16EA8DF321D211E20025F93A /* ZHShareManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EA8DEB21D211E20025F93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CoderApple;
+				TargetAttributes = {
+					16EA8DF221D211E20025F93A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 16EA8DEE21D211E20025F93A /* Build configuration list for PBXProject "ZHShareManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16EA8DEA21D211E20025F93A;
+			productRefGroup = 16EA8DF421D211E20025F93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16EA8DF221D211E20025F93A /* ZHShareManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16EA8DF121D211E20025F93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EA8E0321D211E40025F93A /* LaunchScreen.storyboard in Resources */,
+				16EA8E0021D211E40025F93A /* Assets.xcassets in Resources */,
+				16EA8DFE21D211E20025F93A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		548C234EBFC165621DAB984F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHShareManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D06031ACAC48479F485EC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZHShareManager/Pods-ZHShareManager-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHShareManager/Pods-ZHShareManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16EA8DEF21D211E20025F93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EA8DFB21D211E20025F93A /* ViewController.m in Sources */,
+				16EA8E2821D214810025F93A /* ZHShareManager.m in Sources */,
+				16EA8E2621D214810025F93A /* ZHShareMenuView.m in Sources */,
+				16EA8E0621D211E40025F93A /* main.m in Sources */,
+				16EA8DF821D211E20025F93A /* AppDelegate.m in Sources */,
+				16EA8E2921D214810025F93A /* ZHShareMenu.m in Sources */,
+				16EA8E2721D214810025F93A /* ZHShareObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16EA8DFC21D211E20025F93A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EA8DFD21D211E20025F93A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16EA8E0121D211E40025F93A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EA8E0221D211E40025F93A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16EA8E0721D211E40025F93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16EA8E0821D211E40025F93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16EA8E0A21D211E40025F93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4341C02448E680A08CA8D35B /* Pods-ZHShareManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = ZHShareManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ZHShareManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16EA8E0B21D211E40025F93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9BAB31069285A2216506D4 /* Pods-ZHShareManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = ZHShareManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ZHShareManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EA8DEE21D211E20025F93A /* Build configuration list for PBXProject "ZHShareManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EA8E0721D211E40025F93A /* Debug */,
+				16EA8E0821D211E40025F93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EA8E0921D211E40025F93A /* Build configuration list for PBXNativeTarget "ZHShareManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EA8E0A21D211E40025F93A /* Debug */,
+				16EA8E0B21D211E40025F93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16EA8DEB21D211E20025F93A /* Project object */;
+}
